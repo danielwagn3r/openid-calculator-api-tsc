@@ -1,0 +1,42 @@
+{
+  "name": "calculator-api",
+  "version": "1.0.0",
+  "description": "TypeScript Caluculator API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniel Wagner <daniel@wagners.name>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "express-jwt-authz": "^2.4.1",
+    "express-jwt-scope": "^1.0.0",
+    "express-validator": "^6.14.2",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/express-jwt": "^6.0.4",
+    "@types/express-validator": "^3.0.0",
+    "@types/helmet": "^4.0.0",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/node": "^18.7.18",
+    "@types/winston": "^2.4.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}
